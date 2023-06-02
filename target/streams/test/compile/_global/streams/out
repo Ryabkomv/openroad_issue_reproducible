@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ryabko/myRISCV/src/test/scala/RegisterFileTest.scala:35:23: not found: type GeneralTester[0m
+[0m[[0m[31merror[0m] [0m[0m                  new GeneralTester(dut)[0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

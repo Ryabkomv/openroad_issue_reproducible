@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ryabko/myRISCV/target/scala-2.12/myriscv_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ryabko/myRISCV/target/scala-2.12/classes/RegisterFile$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ryabko/myRISCV/target/scala-2.12/classes/RegisterFile$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ryabko/myRISCV/target/scala-2.12/classes/RegisterFile.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	RegisterFile$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ryabko/myRISCV/target/scala-2.12/classes/RegisterFile$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

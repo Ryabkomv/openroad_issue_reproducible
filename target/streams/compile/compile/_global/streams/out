@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/ryabko/myRISCV/src/main/scala/RegisterFile.scala:9:48: value W is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    val ReadAddress  = Input(UInt(addressWidth.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ryabko/myRISCV/src/main/scala/RegisterFile.scala:10:48: value W is not a member of Double[0m
+[0m[[0m[31merror[0m] [0m[0m    val WriteAddress = Input(UInt(addressWidth.W))[0m
+[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

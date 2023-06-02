@@ -1,0 +1,175 @@
+$date
+2022-06-03T18:41+0000
+$end
+$version
+0.2
+$end
+$comment
+
+$end
+$timescale 1ns  $end
+$scope module RegisterFile $end
+ $var wire 32 % io_WriteData $end
+ $var wire 32 ( regFile $end
+ $var wire 32 , io_ReadData_REG $end
+ $var wire 4 1 io_ReadAddress $end
+ $var wire 1 4 clock $end
+ $var wire 4 7 regFile_io_ReadData_MPORT_addr_pipe_0 $end
+ $var wire 1 : io_WriteEnable $end
+ $var wire 1 = sel $end
+ $var wire 4 > io_WriteAddress $end
+ $var wire 1 @ reset $end
+ $var wire 32 B io_ReadData $end
+ $var wire 1 D regFile_io_ReadData_MPORT_en_pipe_0 $end
+  $scope module regFile $end
+   $var wire 32 . MPORT_1 $end
+   $var wire 32 / MPORT $end
+    $scope module MPORT_1 $end
+     $var wire 1 ! clk $end
+     $var wire 1 ' mask $end
+     $var wire 1 ) en $end
+     $var wire 32 + pipeline_data_0 $end
+     $var wire 4 0 addr $end
+     $var wire 1 5 valid $end
+     $var wire 32 ; data $end
+     $var wire 1 ? pipeline_valid_0 $end
+     $var wire 4 A pipeline_addr_0 $end
+    $upscope $end
+    $scope module MPORT $end
+     $var wire 1 " pipeline_valid_0 $end
+     $var wire 32 # data $end
+     $var wire 1 $ en $end
+     $var wire 1 * clk $end
+     $var wire 1 2 mask $end
+     $var wire 4 3 pipeline_addr_0 $end
+     $var wire 1 9 valid $end
+     $var wire 4 < addr $end
+     $var wire 32 C pipeline_data_0 $end
+    $upscope $end
+    $scope module io_ReadData_MPORT $end
+     $var wire 1 & en $end
+     $var wire 4 - addr $end
+     $var wire 1 6 clk $end
+     $var wire 32 8 data $end
+    $upscope $end
+  $upscope $end
+$upscope $end
+$enddefinitions $end
+$dumpvars
+b0000 <
+1$
+0&
+b00000000000000000000000000000000 (
+b0000 >
+0=
+b0000 7
+06
+0!
+b00000000000000000000000000000000 8
+0"
+b00000000000000000000000000000000 #
+09
+b0000 3
+0:
+12
+04
+05
+b00000000000000000000000000000000 .
+b00000000000000000000000000000000 /
+b0000 0
+0D
+b0000 1
+1'
+0)
+0?
+0*
+b00000000000000000000000000000000 +
+b0000 A
+0@
+b00000000000000000000000000000000 ,
+b0000 -
+b00000000000000000000000000000000 B
+b00000000000000000000000000000000 %
+b00000000000000000000000000000000 C
+b00000000000000000000000000000000 ;
+$end
+#0
+1@
+19
+#1
+1!
+14
+1"
+1&
+1D
+1*
+16
+#6
+0!
+b0100 0
+b00000000000000000000000000001111 %
+04
+0@
+15
+0*
+06
+1:
+b0100 >
+b00000000000000000000000000001111 ;
+1)
+#11
+1!
+1?
+14
+1*
+16
+b00000000000000000000000000001111 +
+b0100 A
+b00000000000000000000000000001111 ,
+#16
+0!
+04
+b0100 1
+0*
+06
+#21
+1!
+b00000000000000000000000000001111 B
+b0100 -
+14
+b00000000000000000000000000001111 8
+1*
+16
+1=
+b0100 7
+#26
+0!
+b0011 0
+b00000000000000000000000000101101 %
+04
+b0011 1
+0*
+06
+b0011 >
+b00000000000000000000000000101101 ;
+#31
+1!
+b00000000000000000000000000101101 B
+b0011 -
+14
+b00000000000000000000000000101101 8
+1*
+16
+b00000000000000000000000000101101 +
+b0011 7
+b0011 A
+b00000000000000000000000000101101 ,
+#36
+0!
+b00000000000000000000000000000000 %
+04
+b0000 1
+0*
+06
+0:
+b0000 >
